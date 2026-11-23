@@ -1,10 +1,25 @@
-# LangChain 
+# LangChain Course Notes
 
-## Chapter 0 > What is LangChain
+## [Chapter 0 > What is LangChain](notes/Chapter%200/README.md)
+- What is LangChain & why use it
+- LangChain ecosystem (`@langchain/core`, partner packages, LangGraph, LangSmith)
+- Project setup with Node.js and ES Modules
+- Environment configuration & minimal starter code
 
-## Chapter 1 > ChatModels and MessageTypes
+## [Chapter 1 > ChatModels and MessageTypes](notes/Chapter%201/README.md)
+- Chat Models vs legacy LLMs
+- Model parameters (`temperature`, `maxTokens`, `timeout`)
+- LangChain Message Classes (`SystemMessage`, `HumanMessage`, `AIMessage`, `ToolMessage`)
+- Input styles & multi-turn conversations
+- Streaming, batching, and inspecting token metadata
 
-## Chapter 2 > Formating LLM Response
+## [Chapter 2 > Formating LLM Response](notes/Chapter%202/README.md)
+- Native Structured Output: `model.withStructuredOutput(schema)` (Zod & JSON Schema)
+- Prompt-based structured output: `StructuredOutputParser`
+- `JsonOutputParser` and streaming partial JSON
+- List parsers (`CommaSeparatedList`, `NumberedList`, `MarkdownList`)
+- `XMLOutputParser`
+- `StringOutputParser` & custom `BaseOutputParser`
 
 ## Chapter 3 > Runnable
 
