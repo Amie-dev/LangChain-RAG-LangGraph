@@ -30,7 +30,13 @@
 - `RunnableBranch`: Conditional routing (if/else)
 - `withFallbacks`: Resilient chains and error recovery
 
-## Chapter 4 > PromtTemplate and chatPromptTemplate
+## [Chapter 4 > PromtTemplate and chatPromptTemplate](notes/Chapter%204/README.md)
+- `PromptTemplate`: String-based templates with variable substitution
+- `ChatPromptTemplate`: Multi-role chat messages (`system`, `human`, `ai`)
+- `MessagesPlaceholder`: Dynamic conversation history injection
+- `.partial()`: Pre-binding static values and dynamic timestamp generators
+- `FewShotChatMessagePromptTemplate`: In-context learning with example pairs
+- Formatting methods: `.format()` vs `.invoke()` (PromptValue)
 
 ## Chapter 5 > Multi-Agent System
 
