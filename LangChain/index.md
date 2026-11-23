@@ -21,7 +21,14 @@
 - `XMLOutputParser`
 - `StringOutputParser` & custom `BaseOutputParser`
 
-## Chapter 3 > Runnable
+## [Chapter 3 > Runnable](notes/Chapter%203/README.md)
+- Core Runnable interface (`invoke`, `batch`, `stream`, `pipe`)
+- `RunnableLambda`: Wrapping sync/async JS functions
+- `RunnableSequence`: Linear chaining with `.pipe()`
+- `RunnableParallel`: Concurrent execution and data aggregation
+- `RunnablePassthrough` & `.assign()`: State enrichment
+- `RunnableBranch`: Conditional routing (if/else)
+- `withFallbacks`: Resilient chains and error recovery
 
 ## Chapter 4 > PromtTemplate and chatPromptTemplate
 
